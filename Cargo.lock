@@ -412,19 +412,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "expirement007"
-version = "0.1.0"
-dependencies = [
- "clap",
- "hex",
- "mongodb",
- "num-traits",
- "serde",
- "tokio",
- "web3",
-]
-
-[[package]]
 name = "fastrand"
 version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1940,6 +1927,19 @@ name = "tinyvec_macros"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
+
+[[package]]
+name = "token_ownership_worker"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "hex",
+ "mongodb",
+ "num-traits",
+ "serde",
+ "tokio",
+ "web3",
+]
 
 [[package]]
 name = "tokio"
