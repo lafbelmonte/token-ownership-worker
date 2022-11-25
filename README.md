@@ -156,11 +156,6 @@ let decoded_token_id = match decode(
 let token_id = decoded_token_id.to_string();
 ```
 
-## Conclusion
-
-Writing this worker service helps me understand and experience more the Rust programming language. Coming from a Node.js background, things such as the ownership model, static typings and no null behavior feels weird and hard the most. It takes time to get used to those but eventually you're just going to realize how much safer and performant applications we can build with those approaches. Right now, I don't recommend using Rust over Node.js for building a complete backend APIs for the sole reason that crates are still growing compared to npm packages. What is ideal and useful right now is to slowly adapt to Rust by creating cpu intensive libraries with Node.js, CLI tools and worker services. All in all it was a good learning experience and I definitely think that in the next few years(when there are more useful crates) we should start using Rust to completely write our backend APIs. 
-
-
 ## Resources
 
 [Ethereum Logs](https://medium.com/mycrypto/understanding-event-logs-on-the-ethereum-blockchain-f4ae7ba50378)
